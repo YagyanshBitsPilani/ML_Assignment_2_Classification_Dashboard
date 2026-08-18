@@ -1,0 +1,19 @@
+{
+  "dataset": "Breast Cancer Wisconsin (Diagnostic)",
+  "n_instances": 569,
+  "n_features": 30,
+  "train_test_split": "80/20",
+  "random_state": 42,
+  "target_mapping": {
+    "0": "Malignant",
+    "1": "Benign"
+  },
+  "model_files": {
+    "Logistic Regression": "logistic_regression.joblib",
+    "Decision Tree": "decision_tree.joblib",
+    "kNN": "knn.joblib",
+    "Naive Bayes": "naive_bayes.joblib",
+    "Random Forest": "random_forest.joblib",
+    "SVM": "svm.joblib"
+  }
+}
